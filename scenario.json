@@ -1,0 +1,41 @@
+{
+  "_README": [
+    "Calibration inputs for the CSP simulator, with HONEST per-field provenance.",
+    "Container terminal statistics that ARE public (throughput, import/export vs",
+    "transshipment, size mix, full/empty) do NOT include a per-container weight-",
+    "CLASS frequency distribution -- the one input the CSP most needs. Verified",
+    "Gross Mass (VGM) is held by carriers/terminals and is not open data. So the",
+    "'weight_profile' below is an ASSUMPTION grounded in domain literature, NOT a",
+    "measured public statistic. Do not describe it as real terminal data.",
+    "To make it real, replace 'weight_profile' with measured VGM/TOS frequencies",
+    "(route B in REALISTIC_VALIDATION.md)."
+  ],
+  "W": 5,
+
+  "utilization": 0.65,
+  "utilization_provenance": {
+    "status": "public-context-informed",
+    "basis": "Storage-yard operational occupancy is typically ~0.60-0.75 in terminal-operations practice; 0.65 sits in that range and is consistent with the high-throughput regime of Korean ports (national container throughput reached 31.73M TEU in 2024; Busan 24.4M TEU).",
+    "sources": [
+      "https://www.mof.go.kr/doc/ko/selectDoc.do?docSeq=60146&bbsSeq=10&menuSeq=971",
+      "https://www.busanpa.com/kor/Contents.do?mCode=MN1004",
+      "https://www.data.go.kr/data/15055478/fileData.do"
+    ],
+    "note": "Throughput/occupancy are public; they anchor utilization, not the weight distribution."
+  },
+
+  "weight_profile": [0.10, 0.20, 0.35, 0.25, 0.10],
+  "weight_concentration": 40,
+  "weight_profile_provenance": {
+    "status": "ASSUMPTION -- not measured, no public source exists",
+    "structure_is_real": "Export containers ARE grouped into a few weight classes with heavier boxes loaded first, so a non-uniform, mid-heavy skew is realistic in shape (Kang et al. 2006; Cho et al. 2022; Lee & Cho 2025).",
+    "values_are_assumed": "The specific per-class frequencies are a modelling choice; no open dataset publishes container weight-class frequencies (VGM is confidential).",
+    "how_to_replace": "Set to measured per-voyage weight-class frequencies from a terminal TOS/VGM export (route B: H4Tech / KHT channel).",
+    "sources_for_the_structure": [
+      "https://link.springer.com/article/10.1007/s10845-005-0013-x",
+      "https://link.springer.com/article/10.1007/s10696-022-09457-8"
+    ]
+  },
+
+  "_paper_wording": "Report results under this profile only as a robustness check under a non-uniform weight distribution, NOT as a real-terminal validation, until 'weight_profile' is replaced with measured values."
+}

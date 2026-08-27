@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the accompanying paper."
+title: "PPO-GAT: Container Stacking Benchmark and Results"
+abstract: >-
+  Held-out benchmark instances and complete per-run experimental results for
+  the yard-level container stacking problem, accompanying the IEEE Access
+  paper on graph-structured deep reinforcement learning with a per-node
+  policy (PPO-GAT).
+type: dataset
+license: CC-BY-4.0
+authors:
+  - family-names: Kim
+    given-names: Dong Kwan
+    affiliation: "Department of Computer Engineering, Mokpo National Maritime University"
+    email: dongkwan@mmu.ac.kr
+  - family-names: Lee
+    given-names: Young-Wuk
+    affiliation: "H4Tech, Daejeon, Republic of Korea"
+  - family-names: Jeong
+    given-names: Jung Sik
+    affiliation: "Division of Maritime Transportation, Mokpo National Maritime University"
+    email: jsjeong@mmu.ac.kr
+keywords:
+  - container stacking problem
+  - container terminal operations
+  - deep reinforcement learning
+  - graph attention network
+  - proximal policy optimization
+  - smart port
+  - yard crane
+preferred-citation:
+  type: article
+  title: >-
+    Graph-Structured Deep Reinforcement Learning with a Per-Node Policy for
+    Container Stacking Optimization in Smart Port Yards
+  authors:
+    - family-names: Kim
+      given-names: Dong Kwan
+    - family-names: Lee
+      given-names: Young-Wuk
+    - family-names: Jeong
+      given-names: Jung Sik
+  journal: "IEEE Access"
+  year: 2026
