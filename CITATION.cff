@@ -4,8 +4,8 @@ title: "PPO-GAT: Container Stacking Benchmark and Results"
 abstract: >-
   Held-out benchmark instances and complete per-run experimental results for
   the yard-level container stacking problem, accompanying the IEEE Access
-  paper on graph-structured deep reinforcement learning with a per-node
-  policy (PPO-GAT).
+  paper on a tight zero-blocking guarantee for a best-fit stacking rule and
+  its comparison with reinforcement learning.
 type: dataset
 license: CC-BY-4.0
 authors:
@@ -31,8 +31,7 @@ keywords:
 preferred-citation:
   type: article
   title: >-
-    Graph-Structured Deep Reinforcement Learning with a Per-Node Policy for
-    Container Stacking Optimization in Smart Port Yards
+    A Tight Guarantee for Online Container Stacking: A Strong Baseline for Reinforcement Learning
   authors:
     - family-names: Kim
       given-names: Dong Kwan

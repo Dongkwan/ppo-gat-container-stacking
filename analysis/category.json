@@ -1,0 +1,160 @@
+{
+ "tested": 18000,
+ "tight": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "rows": [
+  {
+   "rule": "category",
+   "B": 1,
+   "K": 1,
+   "util": 0.6,
+   "blocking": 0.09,
+   "travel": 4.01
+  },
+  {
+   "rule": "category",
+   "B": 1,
+   "K": 1,
+   "util": 0.8,
+   "blocking": 0.73,
+   "travel": 5.631666666666667
+  },
+  {
+   "rule": "category",
+   "B": 1,
+   "K": 1,
+   "util": 1.0,
+   "blocking": 3.3633333333333333,
+   "travel": 6.591666666666667
+  },
+  {
+   "rule": "category",
+   "B": 2,
+   "K": 4,
+   "util": 0.6,
+   "blocking": 0.0,
+   "travel": 10.708421052631572
+  },
+  {
+   "rule": "category",
+   "B": 2,
+   "K": 4,
+   "util": 0.8,
+   "blocking": 0.0,
+   "travel": 14.441228070175423
+  },
+  {
+   "rule": "category",
+   "B": 2,
+   "K": 4,
+   "util": 1.0,
+   "blocking": 3.07,
+   "travel": 18.661929824561394
+  },
+  {
+   "rule": "category",
+   "B": 3,
+   "K": 4,
+   "util": 0.6,
+   "blocking": 0.0,
+   "travel": 16.598070175438583
+  },
+  {
+   "rule": "category",
+   "B": 3,
+   "K": 4,
+   "util": 0.8,
+   "blocking": 0.0,
+   "travel": 21.3321052631579
+  },
+  {
+   "rule": "category",
+   "B": 3,
+   "K": 4,
+   "util": 1.0,
+   "blocking": 2.933333333333333,
+   "travel": 27.401578947368446
+  },
+  {
+   "rule": "bestfit",
+   "B": 1,
+   "K": 1,
+   "util": 0.6,
+   "blocking": 0.006666666666666667,
+   "travel": 2.6708333333333334
+  },
+  {
+   "rule": "bestfit",
+   "B": 1,
+   "K": 1,
+   "util": 0.8,
+   "blocking": 0.30666666666666664,
+   "travel": 3.885
+  },
+  {
+   "rule": "bestfit",
+   "B": 1,
+   "K": 1,
+   "util": 1.0,
+   "blocking": 2.34,
+   "travel": 4.571666666666666
+  },
+  {
+   "rule": "bestfit",
+   "B": 2,
+   "K": 4,
+   "util": 0.6,
+   "blocking": 0.0,
+   "travel": 5.912631578947367
+  },
+  {
+   "rule": "bestfit",
+   "B": 2,
+   "K": 4,
+   "util": 0.8,
+   "blocking": 0.0,
+   "travel": 8.056842105263152
+  },
+  {
+   "rule": "bestfit",
+   "B": 2,
+   "K": 4,
+   "util": 1.0,
+   "blocking": 2.3966666666666665,
+   "travel": 10.188771929824547
+  },
+  {
+   "rule": "bestfit",
+   "B": 3,
+   "K": 4,
+   "util": 0.6,
+   "blocking": 0.0,
+   "travel": 9.021403508771922
+  },
+  {
+   "rule": "bestfit",
+   "B": 3,
+   "K": 4,
+   "util": 0.8,
+   "blocking": 0.0,
+   "travel": 11.84035087719296
+  },
+  {
+   "rule": "bestfit",
+   "B": 3,
+   "K": 4,
+   "util": 1.0,
+   "blocking": 2.1733333333333333,
+   "travel": 15.034561403508745
+  }
+ ]
+}
